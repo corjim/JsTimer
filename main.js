@@ -24,4 +24,6 @@ function randomGame() {
             console.log("It took " + times + " try/tries.");
         }
     }, 1000)
+
+    return randomGame();
 }
